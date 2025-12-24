@@ -1,0 +1,75 @@
+            .mybody{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(180deg,#f19696db,rgb(171, 188, 251),#acf3f7c4);
+                height: 97.7vh;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                height:440px;
+                width:400px;
+                background-color:rgb(255, 255, 255);
+                border-radius: 10px;
+                box-shadow:2px 6px 6px 0 rgba(93, 92, 92, 0.4);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .image{
+                width:350px;
+                height:240px;
+                padding-top: 20px;
+                border-radius: 5px;
+                padding-bottom:12px;
+            }
+            .song-name{
+                font-size:20px;
+                color: rgb(72, 71, 71);
+                margin:0;
+            }
+            .singer{
+                font-size:18px;
+                margin:0;
+                margin-top:5px;
+                color:rgb(86, 84, 84);
+            }
+            .range{
+                width:350px;
+                margin-top:20px;
+                height:10px;
+                cursor: pointer;
+                accent-color:rgb(157, 6, 97);
+                outline: none;
+                border: none;
+            }
+            .previous,.play,.next{
+                height:30px;
+                width:30px;
+            }
+            .controller{
+                margin-top:10px;
+            }
+            .previous-btn,.play-btn,.next-btn{
+                padding:5px;
+                background: transparent;
+                border: none;
+                cursor: pointer;
+            }
+            @media(max-width:420px) {
+                .container{
+                    height:650px;
+                    width:340px;
+                }
+                .image{
+                    width:300px;
+                    height:400px;
+                }
+                .song-name,.singer{
+                    font-size: 16px;
+                }
+                .range{
+                    width:300px;
+                    height:10px;
+                }
+            }
